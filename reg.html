@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Page</h1>
+    <p>Fill out the form below to create your account.</p>
+
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name"><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Email"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit number"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30" placeholder="Enter Address"></textarea><br><br>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BA">BA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select><br><br>
+
+        <label for="username">Create Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter Username"><br><br>
+
+        <label for="password">Create Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
+
+        <label for="confirm">Confirm Password:</label><br>
+        <input type="password" id="confirm" name="confirm" placeholder="Re-enter Password"><br><br>
+
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the Terms & Conditions</label><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
