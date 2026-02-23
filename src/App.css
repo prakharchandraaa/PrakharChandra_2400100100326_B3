@@ -1,0 +1,52 @@
+/* Animated Background */
+.app {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(-45deg, #0f172a, #1e3a8a, #2563eb, #0f172a);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: white;
+}
+
+/* Gradient Animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hero Section */
+.hero {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 60px;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Students Section */
+.students-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+}
